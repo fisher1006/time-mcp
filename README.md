@@ -1,5 +1,7 @@
 # Time MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@fisher1006/time-mcp-2)](https://smithery.ai/server/@fisher1006/time-mcp-2)
+
 A Model Context Protocol server that provides time and timezone conversion capabilities. This server enables LLMs to get current time information and perform timezone conversions using IANA timezone names, with automatic system timezone detection.
 
 ### Available Tools
@@ -33,6 +35,14 @@ After installation, you can run it as a script using:
 
 ```bash
 python -m mcp_server_time
+```
+
+### Installing via Smithery
+
+To install time-mcp-2 for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@fisher1006/time-mcp-2):
+
+```bash
+npx -y @smithery/cli install @fisher1006/time-mcp-2 --client claude
 ```
 
 ## Configuration
