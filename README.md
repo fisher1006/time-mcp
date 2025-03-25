@@ -1,5 +1,7 @@
 # Time MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@fisher1006/time-mcp-4)](https://smithery.ai/server/@fisher1006/time-mcp-4)
+
 A Model Context Protocol server that provides time and timezone conversion capabilities. This server enables LLMs to get current time information and perform timezone conversions using IANA timezone names, with automatic system timezone detection.
 
 ### Available Tools
@@ -15,6 +17,14 @@ A Model Context Protocol server that provides time and timezone conversion capab
     - `target_timezone` (string): Target IANA timezone name
 
 ## Installation
+
+### Installing via Smithery
+
+To install time-mcp-4 for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@fisher1006/time-mcp-4):
+
+```bash
+npx -y @smithery/cli install @fisher1006/time-mcp-4 --client claude
+```
 
 ### Using uv (recommended)
 
